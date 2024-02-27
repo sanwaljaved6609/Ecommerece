@@ -1,0 +1,38 @@
+.man_banner{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 45vh;
+    width: 100%;
+    background: linear-gradient(to right, rgb(252, 226, 226) , white );
+}
+
+.man_banner_left h1{
+    color: rgb(239, 119, 54);
+    font-size: 90px;
+    font-weight: 700;
+}
+.man_banner_left p{
+    color: rgb(70, 61, 62);
+    font-size: 30px;
+    font-weight: 600;
+}
+.man_banner_left p span{
+    color: rgb(239, 119, 54);
+}
+.man_banner_left button{
+    background-color: rgb(246, 113, 42);
+    color: white;
+    border: none;
+    outline: none;
+    border-radius: 70px;
+    height: 6vh;
+    width: 160px;
+    margin-top: 30px;
+}
+
+
+.man_banner_right img{
+    height: 390px;
+    width: 390px;
+}
